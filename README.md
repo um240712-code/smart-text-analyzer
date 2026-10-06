@@ -1,26 +1,16 @@
-# Text Analyzer & Next-Word Predictor
+# Smart Text Analyzer
 
-A Python command-line tool that analyzes text and predicts the next word.
+A Python command-line tool that analyzes text and displays comprehensive statistics.
 
 ## Features
-- Two input modes: type text directly or load it from a file path
-- Text preprocessing: lowercasing and punctuation removal
-- Statistics dashboard: total words, unique words, and more
-- Next-word prediction based on the analyzed text
+- **Two input modes**: Type text directly (ending with `$$END_TEXT$$`) or load it from a file path[span_3](start_span)[span_3](end_span).
+- **Text preprocessing**: Converts text to lowercase and removes punctuation[span_4](start_span)[span_4](end_span).
+- **Statistics dashboard**: Displays total word count, unique word count, total characters (no spaces), and character frequencies[span_5](start_span)[span_5](end_span).
 
 ## Requirements
-- Python 3.8+
-- Uses only the standard library (`os`, `string`)
+- Python 3.x
+- Uses only Python standard libraries (`os`, `string`)[span_6](start_span)[span_6](end_span)
 
 ## How to Run
 ```bash
 python smart_analyzer.py
-```
-1. Choose `1` to enter text directly (type `$$END_TEXT$$` on a new line to finish) or `2` to enter a file path.
-2. The tool preprocesses the text and shows the dashboard.
-
-## Project Structure
-- `smart_analyzer.py`: main script (input, preprocessing, dashboard, prediction)
-
-## Author
-um240712-code
